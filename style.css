@@ -1,36 +1,12 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+*/
 
 *{
    box-sizing: border-box;
    text-decoration: none;
+   padding: 0;
+   margin: 0;
    
 }
- div{
-    
-    
-    
-
- }
- a{
-    
- }
- #block1{
-    background-color:rgb(28, 52, 102);
-    text-align: center; 
-    height: 200px;
-    width: 500px;
-    border: 1px solid black;
-    
-
- }
- #block2{
-     background-color: rgb(233, 150, 42);
-     text-align: center;
-     height: 200px;
-     width: 500px;
-     border: 1px solid black;
-     padding: 60px;
-    
-     
-
- }
+ 
