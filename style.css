@@ -1,10 +1,35 @@
-/*
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
-*/
+
 
 *{
    
-
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
    
+}
+.navber{
+   background: crimson;
+   position: fixed;
+   width: 100%;
+   font-family: ubuntu, sans-serif;
+   
+}
+.navber .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo a span{
+    color: rgb(0, 0, 0);
+}
+.navber .menu li{
+    display: inline-block;
+    list-style: none;
+}
+.navber .menu li a{
+    color: white;
 }
  
