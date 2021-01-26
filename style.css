@@ -15,8 +15,21 @@ text-decoration: none;
    position: fixed;
    width: 100%;
    font-family: ubuntu, sans-serif;
+   padding: 15px 0;
    
 }
+.navber .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 80px;
+}
+
+
 .navber .logo a{
     color: white;
     font-size: 35px;
@@ -27,16 +40,20 @@ text-decoration: none;
     color: rgb(0, 0, 0);
 }
 .navber .menu{
-    float: right;
-    margin-right: 100px;
-    padding-bottom: 50px;
+    
 }
 .navber .menu li{
     display: inline-block;
     list-style: none;
     
+    font: sans-serif;
+    
+    
 }
 .navber .menu li a{
     color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-left: 25px;
 }
  
