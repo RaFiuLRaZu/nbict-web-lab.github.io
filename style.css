@@ -85,4 +85,156 @@ text-decoration: none;
     color: crimson;
     font-weight: 500px;
 }
- 
+button{
+    border: 1px solid white;
+    background-color: crimson;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    transition: .5s;
+
+}
+button a{
+    color: white; 
+    font-size: 25px; 
+}
+button:hover{
+    background: #000;
+    border:1px solid crimson;
+}
+.about{
+   
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.about .me{
+    margin: auto;
+}
+.about .me .flex-item{
+    display: flex;
+}
+.about h1{
+    text-align: center;
+
+}
+.about h5{
+    text-align: center;
+}
+.about h5 span{
+    color: crimson;
+}
+.about .max-width{
+    display: flex ;
+    justify-content: space-between;
+    
+}
+.about .image img{
+    height: 350px;
+    width: 400px;
+    display: block;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+   
+}
+.about .flex-item .text{
+    margin-top: 70px;
+}
+.about .flex-item .text h4{
+    padding: 20px 0;
+    font-size: bold;
+}
+.about .flex-item .text p{
+  font-size: 20px;
+  color: rgb(77, 74, 74);
+}
+.btn{
+    border: 1px solid white;
+    background-color: crimson;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .5s;
+
+}
+.btn:hover{
+    background: white;
+    border:1px solid crimson;
+    
+}
+.btn:hover a{
+    color: crimson;
+}
+.my-service{
+    background-color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    padding-bottom: 100px;
+}
+.my-service .text-item{
+    margin: auto;
+     
+}
+.my-service .text-item h1{
+    margin-top: 20px;
+    font-size: bold;
+}
+.my-service .text-item p{
+    color: white;
+}
+.my-service .text-item p span{
+    color: crimson;
+}
+.my-service .service{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.my-service .service .div1{
+    background-color: rgb(54, 52, 52);
+    border: 1px solid black;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 20px;
+    transition: 1s;
+    border: 2px solid rgb(41, 40, 40);
+    
+    border-radius: 5px;
+}
+.my-service .service h2{
+    font-size: 30px;
+    padding: 15px 0;
+}
+.my-service .service p{
+    color: #fff;
+    font-size: 22px;
+}
+.my-service .service span{
+    color: #fff;
+}
+.my-service .service span i{
+    color: crimson;
+    font-size: 45px;
+}
+.my-service .service .div1:hover{
+    background-color: crimson;
+    color: white;
+
+}
+.my-service .service .div1:hover i{
+    color: white;
+}
+/* my skill */
+.my-service .service span img{
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
